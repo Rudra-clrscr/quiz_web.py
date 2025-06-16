@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Qiuz</title>
+        <link rel="stylesheet" href="/static/question.css">
+    </head>
+    <body class="body">
+        <h1 class="h1">Welcome to online quiz board!</h1>
+        <form action="/result" method="post">
+          <div class="div">
+            <p class="p">1. What is the capital of France?</p>
+            <label class="label"><input type="radio" name="q1" value="A"> A. Paris</label><br>
+            <label><input type="radio" name="q1" value="B"> B. Australia</label><br>
+            <label><input type="radio" name="q1" value="C"> C. India</label><br>
+        </div>
+
+        <div class="div">
+            <p>2. What is the capital of India?</p>
+            <label><input type="radio" name="q2" value="A"> A. Hyderabad</label><br>
+            <label><input type="radio" name="q2" value="B"> B. Chandigarh</label><br>
+            <label><input type="radio" name="q2" value="C"> C. New Delhi</label><br>
+        </div>
+
+        <div class="div">
+            <p>3. What is the national animal of India?</p>
+            <label><input type="radio" name="q3" value="A"> A. Lion</label><br>
+            <label><input type="radio" name="q3" value="B"> B. Royal Bengal Tiger</label><br>
+            <label><input type="radio" name="q3" value="C"> C. Peacock</label><br>
+        </div>
+
+        <input  type="submit" value="Submit Quiz" class="submit">
+
+
+        </form>
+    </body>
+</html>
