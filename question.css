@@ -1,0 +1,23 @@
+.body{
+    background : linear-gradient(to right,#74ebd5, #ACB6E5);
+}
+.h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+}
+.div{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.submit{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
